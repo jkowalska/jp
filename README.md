@@ -23,3 +23,12 @@ Program na dzisiaj:
 <p>Niektóre słowa są szczególnie <em>ważne</em></p>
 
 <p>Niektóre słowa są szczególnie <strong>ważne</strong></p>
+
+Lista:
+<ul>
+<li>marchewka</li>
+<li>fasola</li>
+</ul>
+
+-marchewka
+-fasola
