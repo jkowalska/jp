@@ -24,11 +24,15 @@ Program na dzisiaj:
 
 <p>Niektóre słowa są szczególnie <strong>ważne</strong></p>
 
-Lista:
+Lista z odnośnikami:
 <ul>
 <li>marchewka</li>
 <li>fasola</li>
 </ul>
 
--marchewka
--fasola
+Lista numerowana:
+<ol>
+<li>samochód</li>
+<li>rower</li>
+</ol>
+
