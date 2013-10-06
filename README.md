@@ -7,4 +7,12 @@ Program na dzisiaj:
 
 <h1>A First Level Header</h1>
 
+<h2>A Second Level Header</h2>
+
+<p>Paragraf z tekstem</p>
+
+<p>Następny paragraf</p>
+
+
+
 
