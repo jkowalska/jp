@@ -47,3 +47,5 @@ Lista z opisami:
 </ul>
 
 <p>Przykład strony <a href="www.wp.pl">Wirtualna Polska</a></p>
+
+[Wirtualna Polska]: http://www.wp.pl/
