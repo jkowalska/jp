@@ -43,3 +43,5 @@ Lista z opisami:
 <li>Następny tytuł filmu<p/>
 <p>Opis filmu</p></li>
 </ul>
+
+<p>Przykład strony <a href="www.wp.pl">Wirtualna Polska</a></p>
