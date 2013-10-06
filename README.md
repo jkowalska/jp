@@ -49,3 +49,4 @@ Lista z opisami:
 <p>Przykład strony <a href="www.wp.pl">Wirtualna Polska</a></p>
 
 [Wirtualna Polska]: http://www.wp.pl/ "Wirtualna Polska"
+[google]: http://google.com/        "Google"
