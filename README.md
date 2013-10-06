@@ -1,7 +1,9 @@
 jp
 ==
 
-Repozytorium do zajęć z języków programowania
+Program na dzisiaj:
+
+- oswajanie strony Gruber Markdown
 
 ## zmiana hasła
 
