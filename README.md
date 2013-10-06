@@ -16,7 +16,7 @@ Program na dzisiaj:
 
 <blockquote>
 
-  <p>Jeszcze jeden paragraf</p>
+<p>Jeszcze jeden paragraf</p>
   
 </blockquote>
 
