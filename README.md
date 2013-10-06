@@ -7,7 +7,7 @@ Program na dzisiaj:
 
 ## zmiana hasła
 
-
+<www.wp.pl>
 
 Być może trzeba będzie zalogować się na Sigma
 
