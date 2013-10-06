@@ -36,3 +36,10 @@ Lista numerowana:
 <li>rower</li>
 </ol>
 
+Lista z opisami:
+<ul>
+<li><p>Tytuł filmu</p>
+<p>Opis filmu</p></li>
+<li>Następny tytuł filmu<p/>
+<p>Opis filmu</p></li>
+</ul>
