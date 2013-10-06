@@ -14,5 +14,9 @@ Program na dzisiaj:
 <p>Następny paragraf</p>
 
 
+<blockquote>
 
+  <p>blockquote</p>
+  
+</blockquote>
 
