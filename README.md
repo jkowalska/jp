@@ -1,52 +1,28 @@
-jp
-==
+Program na dzisiaj
+==================
+Oswajanie strony Gruber Markdown
+--------------------------------
 
-Program na dzisiaj:
+[Gruber Markdown]: http://daringfireball.net/projects/markdown/basic  "Gruber Markdown"
 
-- oswajanie strony Gruber Markdown
-
-<p><a href="http://daringfireball.net/projects/markdown/basics">Tutaj<a></P>
-
-<h1>Nagłówek</h1>
-
-<h2>Nagłówek</h2>
-
-<p>Paragraf z tekstem</p>
-
-<p>Następny paragraf</p>
-
-
-<blockquote>
-
-<p>Jeszcze jeden paragraf</p>
-  
-</blockquote>
-
-<p>Niektóre słowa są szczególnie <em>ważne</em></p>
-
-<p>Niektóre słowa są szczególnie <strong>ważne</strong></p>
+*****
 
 Lista z odnośnikami:
-<ul>
-<li>marchewka</li>
-<li>fasola</li>
-</ul>
+* element 1
+* element 2
+* element 3
 
 Lista numerowana:
-<ol>
-<li>samochód</li>
-<li>rower</li>
-</ol>
+1. element 1
+2. element 2
+3. element 3
 
-Lista z opisami:
-<ul>
-<li><p>Tytuł filmu</p>
-<p>Opis filmu</p></li>
-<li>Następny tytuł filmu<p/>
-<p>Opis filmu</p></li>
-</ul>
+Cytowanie:
+> cytat
 
-<p>Przykład strony <a href="www.wp.pl">Wirtualna Polska</a></p>
+__Pogrubiony tekst__ 
 
-[Wirtualna Polska]: http://www.wp.pl/ "Wirtualna Polska"
-[google]: http://google.com/        "Google"
+_Pochylony tekst_
+
+Kod:
+'Treść kodu'
