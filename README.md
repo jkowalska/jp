@@ -3,7 +3,7 @@ Program na dzisiaj
 Oswajanie strony Gruber Markdown
 --------------------------------
 
-[Gruber Markdown]: http://daringfireball.net/projects/markdown/basic/  "Gruber Markdown"
+[Gruber Markdown]: (http://daringfireball.net/projects/markdown/basic/  "Gruber Markdown")
 
 *****
 
