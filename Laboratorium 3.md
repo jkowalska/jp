@@ -12,7 +12,7 @@ Zadania z języków programowania:
 
 Rozpakowanie edytora Sublime Text 2:
 
-`tar jxvf Sublime\ Text\ 2.0.2.tar.bz2 
+`tar jxvf Sublime\ Text\ 2.0.2.tar.bz2
 cd Sublime\ Text\ 2/
 chmod 755 sublime_text
 ./sublime_text`
@@ -24,7 +24,6 @@ main() {
   printf("hello world\n");
   return 0;
 }`
-
 
 
 
