@@ -16,7 +16,13 @@ git add PodstawyGita.md
 git status
 git commit -m "Update PodstawyGita.md"
 
-git push
+git push
 ```
+# Jak zmienić nazwę użytkownika:
+
+```sh
+git config --global user.name "jkowalska"
+```
+
 
 
