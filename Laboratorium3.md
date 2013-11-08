@@ -28,28 +28,14 @@ main() {
   return 0;
 }
 ```
+# Błędy uruchamiania
 
+W przypadku, gdy usunie się losowy fragment z pliku:
 
+```sh
+bash: ./ftc: nie można uruchomić pliku binarnego
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```sh
+Naruszenie ochrony pamięci (core dumped)
+```
