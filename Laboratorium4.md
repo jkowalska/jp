@@ -6,7 +6,7 @@ __Pierwsza wersja:__
 
 ```sh
 /* Program ten wykonuje konwersję ze stopni na radiany
-   według wzoru: rad = 2 * PI * deg / 360    */
+   według wzoru: rad = 2 * PI * deg / 360 */
    
 #include <stdio.h>
 #include <math.h>
@@ -26,7 +26,7 @@ __Druga wersja:__
 
 ```sh
 /* Program ten pyta o imie i wykonuje konwersję ze stopni na radiany
-   według wzoru: rad = 2 * PI * deg / 360    */
+   według wzoru: rad = 2 * PI * deg / 360 */
 
 #include <stdio.h>
 #include <math.h>
@@ -53,7 +53,7 @@ __Trzecia wersja:__
 
 ```sh
 /* Program ten pyta o imie i wykonuje konwersję ze stopni na radiany
-   według wzoru: rad = 2 * PI * deg / 360    */
+   według wzoru: rad = 2 * PI * deg / 360 */
 
 #include <stdio.h>
 #include <math.h>
@@ -62,7 +62,7 @@ int main() {
    double deg, rad;
    char name[20];
 
-   printf("Podaj imię : ");
+   printf("Podaj imię: ");
    scanf("%19s", name);
 
    printf("Podaj kąt w stopniach : ");
@@ -157,17 +157,17 @@ program wypisuje komunikat o błędzie oraz kończy działanie*/
 
 int main() {
 
-	double x, z;
+   double x, z;
 
-	printf("Wpisz liczbę rzeczywistą: ");
-	scanf("%lf, &x);
+   printf("Wpisz liczbę rzeczywistą: ");
+   scanf("%lf", &x);
       
-	printf("Wpisano liczbę rzeczywistą: %lf\n", x);
+   printf("Wpisano liczbę rzeczywistą: %lf\n", x);
 
- 	z = sqrt(x);
- 	printf("Pierwiastek kwadratowy z %lf to %lf\n", x, z);
+   z = sqrt(x);
+   printf("Pierwiastek kwadratowy z %lf to %lf\n", x, z);
 
-	return 0;
+   return 0;
 }
 ```
 __Druga wersja:__
@@ -182,19 +182,19 @@ program wypisuje komunikat o błędzie oraz kończy działanie*/
 
 int main() {
 	
-	double x, z;
+   double x, z;
 
-	printf("Wpisz liczbę rzeczywistą: ");
-	scanf("%lf, &x);
+   printf("Wpisz liczbę rzeczywistą: ");
+   scanf("%lf", &x);
 
-	if (x < 0) {
-	  printf("Error: pierwiastek kwadratowy z %lf nie istnieje\n", x);
-	} else {
-	  z = sqrt(x);
-	  printf("Pierwiastek kwadratowy z %lf to %lf\n", x, z);
-	}
+   if (x < 0) {
+   printf("Error: pierwiastek kwadratowy z %lf nie istnieje\n", x);
+   } else {
+   z = sqrt(x);
+   printf("Pierwiastek kwadratowy z %lf to %lf\n", x, z);
+   }
 
-	return 0;
+   return 0;
 }
 ```
 __Trzecia wersja:__
@@ -210,20 +210,20 @@ program wypisuje komunikat o błędzie oraz kończy działanie*/
 
 int main() {
 
-	double x, z;
+   double x, z;
 
-	printf("Wpisz liczbę rzeczywistą: ");
-	scanf("%lf, &x);
+   printf("Wpisz liczbę rzeczywistą: ");
+   scanf("%lf", &x);
 
-    if (x < 0) {
-	  printf("Error: pierwiastek kwadratowy z %lf nie istnieje\n", x);
-	  exit1(1);
-	} 
+   if (x < 0) {
+   printf("Error: pierwiastek kwadratowy z %lf nie istnieje\n", x);
+   exit1(1);
+   } 
 
-	z = sqrt(x);
-	printf("Pierwiastek kwadratowy z %lf to %lf\n", x, z);
+   z = sqrt(x);
+   printf("Pierwiastek kwadratowy z %lf to %lf\n", x, z);
 
-	return 0;
+   return 0;
 }
 ```
 __Czwarta wersja__
@@ -239,20 +239,20 @@ program wypisuje komunikat o błędzie oraz kończy działanie*/
 
 int main() {
 
-	double x, z;
+   double x, z;
 
-	printf("Wpisz liczbę rzeczywistą: ");
-	scanf("%lf, &x);
+   printf("Wpisz liczbę rzeczywistą: ");
+   scanf("%lf", &x);
 
-    while (x < 0) {
-	  printf("Wpisałeś liczbę ujemną: %lf\n", x);
-	  printf("Wpisz liczbę dodatnią: ");
-	  scanf("%lf, &x);
-	} 
+   while (x < 0) {
+   printf("Wpisałeś liczbę ujemną: %lf\n", x);
+   printf("Wpisz liczbę dodatnią: ");
+   scanf("%lf", &x);
+   } 
 
-	z = sqrt(x);
-	printf("Pierwiastek kwadratowy z %lf to %lf\n", x, z);
-	return 0;
+   z = sqrt(x);
+   printf("Pierwiastek kwadratowy z %lf to %lf\n", x, z);
+   return 0;
 }
 ```
 # Zadanie 7:
@@ -267,25 +267,25 @@ obliczeń program powinien wypisać odpowiedni komunikat. */
 
 int main() {
 
-	double x, z, r;
+   double x, z, r;
 
-	printf("Wpisz liczbę rzeczywistą: ");
-	scanf("%lf, &x);
+   printf("Wpisz liczbę rzeczywistą: ");
+   scanf("%lf", &x);
 
-	if (x == 0) {
-    	printf("Odwrotność 0 nie istnieje");
-    } else {
-      r = 1/x;
-      printf("Odwrotność z %.2lf to %.2lf\n", x, r);
-    }
-
-    if (x < 0) {
-    	printf("Pierwiastek z liczby ujemnej %lf nie istnieje", x);
-    } else {
-    	z = sqrt(x);
-    	printf("Pierwiastek kwadratowy z %.2lf to %.2lf\n", x, z);
-    }
+   if (x == 0) {
+   printf("Odwrotność 0 nie istnieje");
+   } else {
+     r = 1/x;
+     printf("Odwrotność z %.2lf to %.2lf\n", x, r);
+   }
+   
+   if (x < 0) {
+      printf("Pierwiastek z liczby ujemnej %lf nie istnieje", x);
+   } else {
+      z = sqrt(x);
+      printf("Pierwiastek kwadratowy z %.2lf to %.2lf\n", x, z);
+   }
     
-	return 0;
+   return 0;
 }
 ```
