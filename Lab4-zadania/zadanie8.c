@@ -8,8 +8,7 @@ i największą z wprowadzonych liczb. */
 int main() {
 	double a, b, c, x;
 	
-	
-	printf("Wprowadź trzy liczby całkowite: \n");
+	printf("Wprowadź trzy liczby: \n");
 	scanf("%lf %lf %lf", &a, &b, &c);
 
 	x = a + b + c;
@@ -18,9 +17,21 @@ int main() {
 	x = a * b * c;
 	printf("Iloczyn wynosi: %.2lf\n", x);
 
-	printf("Najmniejsza liczba to: \n");
+	if (a < b && a < c) {
+        printf("Najmniejsza liczba to: %.2lf\n", a);
+	} else if (b < a && b < c) {
+	printf("Najmniejsza liczba to: %.2lf\n", b);
+	} else if (c < a && c < b) {
+	printf("Najmniejsza liczba to: %.2lf\n", c);
+	}
 
-	printf("Największa liczba to: \n");
+	if (a > b && a > c) {
+        printf("Największa liczba to: %.2lf\n", a);
+	} else if (b > a && b > c) {
+	printf("Największa liczba to: %.2lf\n", b);
+	} else if (c > a && c > b) {
+	printf("Największa liczba to: %.2lf\n", c);
+	}
 
 	return 0;
 }
