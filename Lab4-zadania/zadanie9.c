@@ -5,24 +5,27 @@
 1.5000  1.2247
 2.0000  1.4142 */
 
-#include<stdio.h>
-#include<math.h>
+#include <stdio.h>
+#include <math.h>
 
-main () {
+int main () {
 
-	double a, b, c;
+  double a, b, c;
 
-	printf("Podaj wartość początkową: \n");
-	scanf("%lf", &a);
-	printf("Podaj wartość koncową: \n");
-	scanf("%lf", &b);
-	printf("Podaj wartość kroku dla argumentu: \n"); 
-	scanf("%lf", &c);
+  printf("Podaj wartość początkową: \n");
+  scanf("%lf", &a);
 
-	while (a <= b) {
-	printf("%5.4lf %5.4lf\n", a, sqrt(a));
-	a=a+c;
-	}
-	return 0;
+  printf("Podaj wartość koncową: \n");
+  scanf("%lf", &b);
+
+  printf("Podaj wartość kroku dla argumentu: \n"); 
+  scanf("%lf", &c);
+
+  while (a <= b) {
+  printf("%5.4lf %5.4lf\n", a, sqrt(a));
+  a=a+c;
+  }
+  
+  return 0;
 }
 
