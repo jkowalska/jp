@@ -6,15 +6,14 @@
 
 int main() {
 
-	double cale, centymetry;
+  double cale, centymetry;
 
-	printf("Podaj swój wzrost: ");
+  printf("Podaj swój wzrost: ");
+  scanf("%lf",&centymetry);
 
-	scanf("%lf.1",&centymetry);
+  cale=centymetry/2.54;
 
-	cale=centymetry/2.54;
+  printf("%lf\n", cale);
 
-	printf("%lf.1\n", cale);
-
-	return 0;
+  return 0;
 }
