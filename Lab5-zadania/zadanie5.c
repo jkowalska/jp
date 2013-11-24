@@ -5,7 +5,7 @@ a następnie wypisze zawartość tej tablicy od początku i od końca. */
 
 int main()
 {
-  int tab[5];
+  int tab[6];
   int i;
 
   i = 0;
