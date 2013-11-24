@@ -4,7 +4,7 @@ a następnie wypisze liczbę liczb dodatnich w niej zawartych. */
 #include <stdio.h>
 int main(void)
 {
-  int tab[5];
+  int tab[6];
   int i = 0;
 
   while (i < 6)
