@@ -5,7 +5,7 @@ liczbę umieszczoną w tej tablicy. */
 #include <stdio.h>
 int main()
 {
-  int tab[5];
+  int tab[6];
   int max, min;
   int i = 0;
 
