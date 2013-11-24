@@ -23,6 +23,12 @@ git push
 ```sh
 git config --global user.name "jkowalska"
 ```
+# Przesuwanie pliku w GitHubie.
+
+```sh
+git mv nazwapliku.c katalog/
+```
+
 
 
 
