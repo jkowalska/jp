@@ -8,5 +8,9 @@ rename -v 's/do_usuniecia*//' *.c
 ```sh
 rename -v 's/cwiczenia/zadanie/' *c
 ```
+# JavaScript
 
+"Eloquent JavaScript"
+
+[Na stronie](http://eloquentjavascript.net/ "JavaScript")
 
