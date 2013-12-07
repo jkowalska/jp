@@ -4,22 +4,31 @@ Napisz funkcję, która sprawdza czy podana liczba jest doskonała. Użyj tej
 funkcji do wypisania wszystkich liczb doskonałych mniejszych od 10 000. */
 
 #include <stdio.h>
+int doskonala(int i);
+
 int main() {
- int liczba, i = 1, suma = 0;
- 
+
+ int liczba;
+  
  printf("Wprowadź liczbę: ");
  scanf("%d", &liczba);
- 
+
+ if (suma == liczba)
+  printf("%d jest liczbą doskonałą.\n", liczba);
+ else
+  printf("%d nie jest liczbą doskonałą.\n", liczba);
+ }
+  
+ return 0;
+}
+
+int doskonala(int i) {
+ int liczba, i = 1, suma = 0;
+
  while (i < liczba) {
   if (liczba%i == 0)
    suma = suma + i;
-  i++;
- }
+   i++;
 
- if (suma == liczba)
-  printf("%d jest liczbą doskonałą.\n", i);
- else
-  printf("%d nie jest liczbą doskonałą.\n", i);
- 
- return 0;
+  return 0;
 }
