@@ -4,7 +4,7 @@ liczb naturalnych. */
 
 #include <stdio.h>
 
-long silnia(int);
+long silnia(int liczba);
  
 int main() {
   int liczba;
@@ -18,12 +18,12 @@ int main() {
   return 0;
 }
  
-long silnia(int licz) {
-  int c;
-  long wynik = 1;
+long silnia(int liczba) {
+  int i;
+  wynik = 1;
  
-  for (c = 1; c <= licz; c++)
-    wynik = wynik * c;
+  for (i = 1; i <= liczba; i++)
+    wynik = wynik * i;
  
   return wynik;
 }
