@@ -3,11 +3,20 @@ Na przykład 6 jest liczbą doskonałą ponieważ: 1 + 2 + 3 = 6
 Napisz funkcję, która wypisze wszystkie liczby doskonałe mniejsze od 10 000. */
 
 #include <stdio.h>
+
 int main() {
+ int doskonala(int i);
  int liczba, i, suma;
-  
+
  printf("Wszystkie liczby doskonałe mniejsze od 10 000 to: \n");
- for (liczba = 1; liczba <= 10000; liczba++) {
+
+ return 0;
+
+}
+
+int doskonala(int i) {
+
+   for (liczba = 1; liczba <= 10000; liczba++) {
    i = 1;
    suma = 0;
 
