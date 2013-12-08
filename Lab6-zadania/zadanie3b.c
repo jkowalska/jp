@@ -20,10 +20,9 @@ int doskonala(int i) {
    i = 1;
    suma = 0;
 
-   while (i < liczba) {
-     if (liczba%i == 0)
-      suma = suma + i;
-      i++;
+   for(i = 1; i < liczba; i++) {
+    if (liczba%i == 0)
+    suma = suma + i;
    }
 
    if (suma == liczba)
@@ -32,3 +31,13 @@ int doskonala(int i) {
 
  return 0;
 }
+
+  /* lub pętla while zamiast drugiej for:
+  
+   while (i < liczba) {
+    if (liczba%i == 0)
+     suma = suma + i;
+     i++;
+   }
+   
+  */
