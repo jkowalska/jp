@@ -1,29 +1,38 @@
-/* Napisz funkcję, która oblicza wartość silni z liczby naturalnej. 
-Wykorzystaj ją w programie wypisującym na wyjście silnię 10 pierwszych 
+/* Napisz funkcję, która oblicza wartość silni z liczby naturalnej.
+Wykorzystaj ją w programie wypisującym na wyjście silnię 10 pierwszych
 liczb naturalnych. */
 
 #include <stdio.h>
 
-long silnia(int liczba);
- 
+long long int silnia(int);  // lub long long unsigned int silnia(int);
+                            // (interesują nas tylko liczby 0 i większe)
 int main() {
   int liczba;
-  long silnia = 1;
- 
+   
   printf("Aby obliczyć wartość silni, wprowadź liczbę naturalną:\n");
   scanf("%d", &liczba);
  
-  printf("%d! = %ld\n", liczba, silnia(liczba));
+  if (liczba < 0)
+    printf("Liczba musi być większa od zera.");
+  else {
+    printf("%d! = %lli\n", liczba, silnia(liczba));
+}
  
   return 0;
 }
  
-long silnia(int liczba) {
-  int i;
-  wynik = 1;
+long long int silnia(int x) {
+  int a;
+  long long int out = 1;
  
-  for (i = 1; i <= liczba; i++)
-    wynik = wynik * i;
+  for (a = 1; a <= x; a++)
+    out = out * a;
  
-  return wynik;
+  return out;
 }
+
+/* jeśli wpiszemy:
+double silnia(int); 
+(%.0f)
+(można wtedy wyliczyć nawet 100!, ale nie wiadomo, czy wynik będzie prawidłowy)
+*/
