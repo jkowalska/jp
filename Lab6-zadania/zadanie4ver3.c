@@ -21,7 +21,7 @@ int main() {
 char *inverted(int x) {
 
   char *znaki = malloc(10);
-  i = 0;
+  int i = 0;
 
   while (x > 0) {
     znaki[i] = '0' + x % 10;
