@@ -1,29 +1,26 @@
-/* Napisz funkcję, która po wczytaniu liczby całkowitej wypisze jej cyfry 
-zaczynając od ostatniej i kończąc na pierwszej. Na przykład po wczytaniu 
+/* Napisz funkcję, która po wczytaniu liczby całkowitej wypisze jej cyfry
+zaczynając od ostatniej i kończąc na pierwszej. Na przykład po wczytaniu
 liczby '1410' funkcja powinna wypisać '0141'. */
 
 #include <stdio.h>
-int odwrocona(int a);
 
-int main()
-{
+void inverted(int a);
+
+int main() {
   int a;
-  printf("Wprowadź liczbę całkowitą:\n");
-  scanf("%d\n", &a);
 
-  printf("%d\n", odwrocona(a));
+  printf("Wprowadź liczbę całkowitą: ");
+  scanf("%d", &a);
+  inverted(a);
+  printf("\n");
 
   return 0;
 }
 
-int odwrocona(int a)
-{
-  int b = 0;
-
-  while (a > 0) {
-    b = b * 10 + a % 10;
-    a = a / 10;
+void inverted(int x) {
+  
+  while (x > 0) {
+    printf("%d", x % 10);
+    x = x / 10;
   }
-
-  return b;
 }
