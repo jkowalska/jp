@@ -7,15 +7,15 @@ działający program. */
 #include <stdio.h>
 
 int main() {
-  int c;
+ int c;
 
-  while ((c=getchar())!=EOF)
-    if (c=='\t')
+ while ((c=getchar())!=EOF)
+  if (c=='\t')
+		printf("\\t");
+	else if (c=='\\')
+		printf("\\\\");
+  else
     putchar(c);
-  else if (c=='\\')
-    printf("\\\\");
-  else 
-    printf("\\t");
 
 return 0;
 }
