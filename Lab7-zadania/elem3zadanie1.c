@@ -11,11 +11,11 @@ int main() {
 
  while ((c=getchar())!=EOF)
   if (c=='\t')
-		printf("\\t");
-	else if (c=='\\')
-		printf("\\\\");
+    printf("\\t");
+  else if (c=='\\')
+    printf("\\\\");
   else
     putchar(c);
 
-return 0;
+ return 0;
 }
