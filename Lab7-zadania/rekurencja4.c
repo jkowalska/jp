@@ -16,6 +16,7 @@ int main(void) {
 
   nwd = dzielnik(liczba1, liczba2);
   printf("Największy wspólny dzielnik: %d\n", nwd);
+  return nwd;
 }
 
 int dzielnik(int x, int y) {
