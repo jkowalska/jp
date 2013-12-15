@@ -16,6 +16,7 @@ int main() {
   scanf("%d", &k);
   wynik = newton(n, k);
   printf("%d\n", wynik);
+  return 0;
 }
 
 int newton(int n, int k) {
@@ -27,4 +28,5 @@ int newton(int n, int k) {
   if (n > 0 && k > 0 && n > k) {
     return newton(n - 1, k - 1) + newton(n - 1, k);
   }
+  return 0;
 }
