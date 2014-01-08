@@ -14,9 +14,9 @@ __Pierwsza wersja:__
 int main() {
    double deg, rad;
 
-   printf("Podaj kąt w stopniach : ");
+   printf("Podaj kąt w stopniach: ");
    scanf("%lf", &deg);
-   rad = 2 * 3.1415 * deg / 360 ;  /* grep PI /usr/include/math.h */
+   rad = 2 * 3.1415 * deg / 360;  /* grep PI /usr/include/math.h */
    printf("%lf deg = %lf rad\n", deg , rad);
    
    return 0;
@@ -35,13 +35,13 @@ int main() {
    double deg, rad;
    char name[20];
 
-   printf("Podaj imię : ");
+   printf("Podaj imię: ");
    scanf("%19s", name);
 
-   printf("Podaj kąt w stopniach : ");
+   printf("Podaj kąt w stopniach: ");
    scanf("%lf", &deg);
-   rad = 2 * 3.1415 * deg / 360 ;  /* grep PI /usr/include/math.h */
-   printf("%lf deg = %lf rad\n", deg , rad);
+   rad = 2 * 3.1415 * deg / 360;  /* grep PI /usr/include/math.h */
+   printf("%lf deg = %lf rad\n", deg, rad);
 
    return 0;
 }
@@ -65,10 +65,10 @@ int main() {
    printf("Podaj imię: ");
    scanf("%19s", name);
 
-   printf("Podaj kąt w stopniach : ");
+   printf("Podaj kąt w stopniach: ");
    scanf("%lf", &deg);
-   rad = 2 * M_PI * deg / 360 ;  /* grep PI /usr/include/math.h */
-   printf("%lf deg = %.10lf rad\n", deg , rad);
+   rad = 2 * M_PI * deg / 360;  /* grep PI /usr/include/math.h */
+   printf("%lf deg = %.10lf rad\n", deg, rad);
 
    return 0;
 }
@@ -82,8 +82,7 @@ __Pierwsza wersja:__
    wypisuje, która z nich jest większa. */
 
 #include <stdio.h>
-int main()
-{
+int main() {
    int k, n;
 
    printf("Podaj pierwszą liczbę całkowitą: ");
@@ -96,9 +95,9 @@ int main()
    /*printf("Wieksza liczba to %i\n", k >= n ? k : n) */
    
    if (k >= n) {
-     printf("Większa liczba %i\n", k);
+     printf("Większa liczba to %i\n", k);
    } else {
-     printf("Większa liczba %i\n", n);	
+     printf("Większa liczba to %i\n", n);	
    }
 
    return 0; 
@@ -111,8 +110,7 @@ __Druga wersja:__
    wypisuje, która z nich jest większa. */
 
 #include <stdio.h>
-int main()
-{
+int main() {
    int k, n;
 
    printf("Podaj dwie liczby całkowite: ");
@@ -130,8 +128,7 @@ __Trzecia wersja:__
    wypisuje, która z nich jest większa. */
 
 #include <stdio.h>
-int main()
-{
+int main() {
    int x[2];
 
    printf("Podaj dwie liczby całkowite: ");
@@ -217,7 +214,8 @@ int main() {
 
    if (x < 0) {
    printf("Error: pierwiastek kwadratowy z %lf nie istnieje\n", x);
-   exit1(1);
+   return 1;
+   /* exit1(1); */
    } 
 
    z = sqrt(x);
@@ -265,6 +263,9 @@ oraz jej pierwiastek kwadratowy. Program nie powinien obliczać odwrotności
 liczby 0 oraz pierwiastka z liczby ujemnej. W takiej sytuacji zamiast 
 obliczeń program powinien wypisać odpowiedni komunikat. */
 
+#include <stdio.h>
+#include <math.h>
+
 int main() {
 
    double x, z, r;
@@ -275,7 +276,7 @@ int main() {
    if (x == 0) {
    printf("Odwrotność 0 nie istnieje");
    } else {
-     r = 1/x;
+     r = 1 / x;
      printf("Odwrotność z %.2lf to %.2lf\n", x, r);
    }
    
