@@ -5,12 +5,15 @@ Jak inaczej można zainicjalizować tablicę w C?
 */
 
 #include <stdio.h>
+#include <math.h>
 
-int main(void) {
-  int tab[512];
-  int i;
+int main() {
+  int tab[512], licznik, liczba = 128, index = 0;
+  int *wskaznik = &liczba;
 
-  for (i = 0; i <= 512; i++) {
-    tab[i] = 128;
+  for (licznik = 0; licznik <= 512; index++) {
+    tab[licznik] = *wskaznik;
+    printf("%d ==> %d\n", index, tab[licznik]);
   }
+  return 0;
 }
