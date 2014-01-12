@@ -20,6 +20,7 @@ int main() {
 
   minmax(int_tab, length, &min, &max);
   printf("Najmniejszy element to %d, największy to %d\n", min, max);
+  printf("Różnica między nimi to %d\n", max - min);
   return 0;
 }
 
