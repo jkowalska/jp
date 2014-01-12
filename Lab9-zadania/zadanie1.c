@@ -34,23 +34,23 @@ struct point addpoints(struct point p1, struct point p2) {
 }
 
 int main() {
-	struct point p, p1, p2;
-	struct rect r;
+  struct point p, p1, p2;
+  struct rect r;
 
-	p1 = makepoint(4, 6);
-	p2 = makepoint(6, 4);
+  p1 = makepoint(4, 6);
+  p2 = makepoint(6, 4);
 
-	p = addpoints(p1, p2);
+  p = addpoints(p1, p2);
 
-/* p.x = 4;	// punkt, który ma odciętą 4
-	 p.y = 6;	// punkt, który ma odciętą 6 
-	 (zamiast tego mamy makepoint) */
+  /* p.x = 4;	// punkt, który ma odciętą 4
+     p.y = 6;	// punkt, który ma odciętą 6 
+    (zamiast tego mamy makepoint) */
 
-	printf("p = (%d, %d)\n", p.x, p.y);
+  printf("p = (%d, %d)\n", p.x, p.y);
 
-	r = makerect(p1, p2);
+  r = makerect(p1, p2);
 
-	printf("r = (%d, %d) (%d, %d)\n", r.ll.x, r.ll.y, r.ur.x, r.ur.y);
+  printf("r = (%d, %d) (%d, %d)\n", r.ll.x, r.ll.y, r.ur.x, r.ur.y);
 
-	return 0;
+  return 0;
 }
